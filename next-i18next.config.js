@@ -5,7 +5,8 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en", "de"],
   },
-  debug: false,
-  serializeConfig: false,
+  // debug: false,
+  // serializeConfig: false,
+  // Can't use language detection middlewares?
   // https://github.com/i18next/next-i18next/issues/1841
 };

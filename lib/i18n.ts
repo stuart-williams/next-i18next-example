@@ -1,7 +1,7 @@
 import universalLanguageDetect from "@unly/universal-language-detector";
 import type { GetServerSidePropsContext } from "next";
+import nextI18NextConfig, { i18n } from "next-i18next.config";
 import { serverSideTranslations as _serverSideTranslations } from "next-i18next/serverSideTranslations";
-import nextI18NextConfig, { i18n } from "../next-i18next.config";
 
 export const serverSideTranslations = async (
   context: GetServerSidePropsContext,
