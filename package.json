@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@unly/universal-language-detector": "^2.0.3",
     "next": "12.3.1",
+    "next-i18next": "^12.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
